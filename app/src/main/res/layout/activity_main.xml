@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/account_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="128dp"
+        android:width="220dp"
+        android:background="@color/blue"
+        android:onClick="onClickAccount"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:text="@string/account_button"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/see_books_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:width="220dp"
+        android:background="@color/blue"
+        android:onClick="onClickBookingList"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:text="@string/see_books_button"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/account_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/book_room_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:width="220dp"
+        android:background="@color/blue"
+        android:onClick="onClickBooking"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:text="@string/book_room_button"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/see_books_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/main_logo"
+        android:layout_width="308dp"
+        android:layout_height="297dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginBottom="45dp"
+        android:contentDescription="@string/logo_description"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toTopOf="@+id/book_room_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/main_logout_button"
+        android:layout_width="56dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/log_out_icon"
+        android:onClick="onClickLogout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

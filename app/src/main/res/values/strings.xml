@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">hotel_app</string>
+    <string name="login_button">Увійти</string>
+    <string name="signup_button">Зареєструватися</string>
+    <string name="login_activity_header">Вхід</string>
+    <string name="phone_number_hint">Введіть номер</string>
+    <string name="phone_number_label">Номер телефону</string>
+    <string name="password_hint">Введіть пароль</string>
+    <string name="password_label">Пароль</string>
+    <string name="surname_hint">Введіть прізвище</string>
+    <string name="surname_label">Прізвище</string>
+    <string name="firstname_hint">Введіть ім\'я</string>
+    <string name="firstname_label">Ім\'я</string>
+
+    <string name="room_type_hint">Виберіть тип</string>
+    <string name="room_type_label">Тип номера</string>
+    <string name="beds_count_hint">Виберіть кількість</string>
+    <string name="beds_count_label">Кількість спальних місць</string>
+    <string name="start_date_hint">Дата заселення</string>
+    <string name="start_date_label">Від ...</string>
+    <string name="end_date_hint">Дата відселення</string>
+    <string name="end_date_label">До ...</string>
+
+    <string name="signup_activity_header">Реєстрація</string>
+    <string name="booking_activity_header">Бронювання</string>
+
+    <string name="book_room_button">Забронювати номер</string>
+    <string name="see_books_button">Переглянути бронювання</string>
+    <string name="account_button">Аккаунт</string>
+    <string name="logo_description">Логотип готелю</string>
+
+    <string name="login_error_message">Неправильний номер або пароль</string>
+    <string name="empty_field_error">Введіть значення</string>
+
+</resources>
